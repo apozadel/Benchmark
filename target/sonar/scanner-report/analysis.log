@@ -1,0 +1,79 @@
+SonarQube plugins:
+  - SonarCSS 1.2.0.1325 (cssfamily)
+  - JavaScript Custom Rules 5.2.1.7778.1 (jscustom)
+  - PMD 3.2.1 (pmd)
+  - LocalPlugin 1.0.3 (LocalPlugin)
+  - Svn 1.9.0.1295 (scmsvn)
+  - SonarScala 1.5.0.315 (sonarscala)
+  - C# Code Quality and Security 8.6.1.17183 (csharp)
+  - SonarJava 5.13.1.18282 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - SonarBW 1.5.1.1452.100 (bw)
+  - SonarHTML 3.1.0.1615.302 (web)
+  - SonarFlex 2.5.1.1831 (flex)
+  - SonarXML 2.0.1.2020.01 (xml)
+  - Rules Compliance Index (RCI) 1.0.2 (rci)
+  - SonarJSON 3.1.0.1615.200 (json)
+  - SonarTS 1.9.0-SNAPSHOT (typescript)
+  - VB.NET Code Quality and Security 8.6.1.17183 (vbnet)
+  - SonarYAML 3.1.0.1615.109 (yaml)
+  - Dependency-Check 2.0.5 (dependencycheck)
+  - SonarPython 2.8.0.6204 (python)
+  - L10n :: Spanish Pack 1.14 (l10nes)
+  - GitHub Authentication for SonarQube 1.5.0.870 (authgithub)
+  - Java Custom Rules 5.13.0.18197.3 (javacustom)
+  - JaCoCo 1.1.0.898 (jacoco)
+  - SonarGo 1.6.0.719 (go)
+  - SonarKotlin 1.5.0.315 (kotlin)
+  - SonarJS 5.2.1.7778 (javascript)
+  - SonarRuby 1.5.0.315 (ruby)
+  - Findbugs 4.0.0 (findbugs)
+  - Git 1.11.1.2008 (scmgit)
+  - SAML 2.0 Authentication for SonarQube 1.1.0.181 (authsaml)
+  - SonarPHP 3.3.0.5166 (php)
+  - Build Breaker 7.0 (IsbanBuildBreakerPlugin)
+Global server settings:
+  - sonar.buildbreaker.forbiddenConf=**/config/*,**/vo/*,**/model/*,**/*JpaRepository*,**/*DataSource*
+  - sonar.buildbreaker.queryInterval=30000
+  - sonar.buildbreaker.queryMaxAttempts=100
+  - sonar.core.id=D0B3E6DB-AW7HeLAOCM0GFbBT7GDm
+  - sonar.core.serverBaseURL=http://sonarqube1.sgtech.gs.corp
+  - sonar.core.startTime=2020-08-31T07:26:44+0200
+  - sonar.findbugs.timeout=1800000
+  - sonar.forceAuthentication=true
+  - sonar.global.exclusions=**/*jquery*,**/*bootstrap*,**/src/main/resources/static/*/ext/**,**/common/pgs/res/**,**/*.js.map,**/*.css.map,**/modernizr.js,**/Styles/css/less/components.less 
+  - sonar.issuesReport.api.url=https://issuesreportp-sgt-servqa-dev.appls.cann.paas.cloudcenter.corp/api/v1/issues
+  - sonar.javascript.file.suffixes=.js,.jsx,.vue,.bjs,.js,.bhtp
+  - sonar.qa.local.token=******
+  - sonar.scm.disabled=true
+  - sonar.xml.file.suffixes=.xml,.xsd,.xsl,.wsdl
+Project server settings:
+Project scanner properties:
+  - sonar.binaries=C:\datos\codes\codeql\Benchmark\target\classes
+  - sonar.groovy.binaries=C:\datos\codes\codeql\Benchmark\target\classes
+  - sonar.host.url=http://isblvdsonap0004.scisb.isban.corp:9000
+  - sonar.java.binaries=C:\datos\codes\codeql\Benchmark\target\classes
+  - sonar.java.libraries=C:\Users\XIS01536\.m2\repository\javax\javaee-api\7.0\javaee-api-7.0.jar,C:\Users\XIS01536\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar,C:\Users\XIS01536\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar,C:\Users\XIS01536\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar,C:\Users\XIS01536\.m2\repository\org\seleniumhq\selenium\selenium-server-standalone\2.46.0\selenium-server-standalone-2.46.0.jar,C:\Users\XIS01536\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar,C:\Users\XIS01536\.m2\repository\org\slf4j\slf4j-log4j12\1.7.12\slf4j-log4j12-1.7.12.jar,C:\Users\XIS01536\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar,C:\Users\XIS01536\.m2\repository\commons-dbcp\commons-dbcp\1.2.2\commons-dbcp-1.2.2.jar,C:\Users\XIS01536\.m2\repository\commons-pool\commons-pool\1.3\commons-pool-1.3.jar,C:\Users\XIS01536\.m2\repository\org\apache\geronimo\ext\tomcat\jasper\7.0.39.2\jasper-7.0.39.2.jar,C:\Users\XIS01536...
+  - sonar.java.source=1.7
+  - sonar.java.target=1.7
+  - sonar.java.test.libraries=C:\datos\codes\codeql\Benchmark\target\classes,C:\Users\XIS01536\.m2\repository\javax\javaee-api\7.0\javaee-api-7.0.jar,C:\Users\XIS01536\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar,C:\Users\XIS01536\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar,C:\Users\XIS01536\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar,C:\Users\XIS01536\.m2\repository\org\seleniumhq\selenium\selenium-server-standalone\2.46.0\selenium-server-standalone-2.46.0.jar,C:\Users\XIS01536\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar,C:\Users\XIS01536\.m2\repository\org\slf4j\slf4j-log4j12\1.7.12\slf4j-log4j12-1.7.12.jar,C:\Users\XIS01536\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar,C:\Users\XIS01536\.m2\repository\commons-dbcp\commons-dbcp\1.2.2\commons-dbcp-1.2.2.jar,C:\Users\XIS01536\.m2\repository\commons-pool\commons-pool\1.3\commons-pool-1.3.jar,C:\Users\XIS01536\.m2\repository\org\apache\geronimo\ext\tomcat\jasper...
+  - sonar.libraries=C:\Users\XIS01536\.m2\repository\javax\javaee-api\7.0\javaee-api-7.0.jar,C:\Users\XIS01536\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar,C:\Users\XIS01536\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar,C:\Users\XIS01536\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar,C:\Users\XIS01536\.m2\repository\org\seleniumhq\selenium\selenium-server-standalone\2.46.0\selenium-server-standalone-2.46.0.jar,C:\Users\XIS01536\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar,C:\Users\XIS01536\.m2\repository\org\slf4j\slf4j-log4j12\1.7.12\slf4j-log4j12-1.7.12.jar,C:\Users\XIS01536\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar,C:\Users\XIS01536\.m2\repository\commons-dbcp\commons-dbcp\1.2.2\commons-dbcp-1.2.2.jar,C:\Users\XIS01536\.m2\repository\commons-pool\commons-pool\1.3\commons-pool-1.3.jar,C:\Users\XIS01536\.m2\repository\org\apache\geronimo\ext\tomcat\jasper\7.0.39.2\jasper-7.0.39.2.jar,C:\Users\XIS01536...
+  - sonar.links.ci=
+  - sonar.links.homepage=https://www.owasp.org/index.php/Benchmark
+  - sonar.links.issue=
+  - sonar.links.scm=
+  - sonar.links.scm_dev=
+  - sonar.login=******
+  - sonar.moduleKey=OWASP_Benchmark:org.owasp:benchmark
+  - sonar.password=******
+  - sonar.projectBaseDir=C:\datos\codes\codeql\Benchmark
+  - sonar.projectBuildDir=C:\datos\codes\codeql\Benchmark\target
+  - sonar.projectKey=OWASP_Benchmark
+  - sonar.projectName=OWASP Benchmark Project
+  - sonar.projectVersion=1.2
+  - sonar.scanner.app=ScannerMaven
+  - sonar.scanner.appVersion=3.7.0.1746/3.2.3
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=C:\datos\codes\codeql\Benchmark\src\main\webapp,C:\datos\codes\codeql\Benchmark\pom.xml,C:\datos\codes\codeql\Benchmark\src\main\java
+  - sonar.version=CODEQL_crypto
+  - sonar.working.directory=C:\datos\codes\codeql\Benchmark\target\sonar
